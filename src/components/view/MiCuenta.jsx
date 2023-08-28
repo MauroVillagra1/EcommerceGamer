@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import "./MiCuenta.css";
+import "./Micuenta.css";
 function MiCuenta({ usuarioActivo }) {
   const [bandera, setBandera] = useState("");
   useEffect(() => {

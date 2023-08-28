@@ -1,0 +1,106 @@
+.image-container {
+  position: relative;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 30%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  justify-content: end;
+}
+.text-overlay p {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+.retro-text {
+  font-family: "Press Start 2P", cursive;
+  font-size: 16px;
+}
+@keyframes turnOn {
+  0%,
+  100% {
+    background-color: rgb(255, 223, 0);
+    transform: scale(1);
+  }
+  50% {
+    background-color: rgb(255, 69, 0);
+    transform: scale(1.1);
+  }
+}
+
+@keyframes turnOff {
+  0%,
+  100% {
+    background-color: rgb(255, 223, 0);
+    transform: scale(1);
+  }
+  50% {
+    background-color: rgb(0, 0, 0);
+    transform: scale(0.9);
+  }
+}
+
+.magic-button {
+  background-color: rgb(255, 223, 0);
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: black;
+  cursor: pointer;
+  animation: turnOn 2s infinite alternate;
+  width: 100%;
+  font-family: "Press Start 2P", cursive;
+  font-size: 20px;
+}
+
+.magic-button:hover {
+  animation: turnOff 2s infinite alternate;
+}
+@media screen and (max-width: 768px) {
+  .magic-button {
+    font-size: 10px;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+  .text-overlay p {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+  }
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+  }
+}
+@media (max-width: 1200px) {
+  .text-overlay {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    top: 5%;
+  }
+  .text-overlay p {
+    width: 30vw;
+    height: initial;
+  }
+}
+@media (max-width: 1200px) {
+  .text-overlay {
+    width: 100%;
+    left: 50%;
+  }
+  .text-overlay p {
+    font-size: 30px;
+  }
+}

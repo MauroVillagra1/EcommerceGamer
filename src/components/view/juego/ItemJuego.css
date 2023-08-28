@@ -1,0 +1,31 @@
+
+.img-item{
+    width: 100px;
+    height: 150%;
+}
+
+.content-img{
+    min-height: 100%;
+}
+
+.content-button
+{
+justify-content: center;
+align-items: center !important;
+}
+
+.button-editar{
+    min-width: 100%;
+    min-height: 100%;
+}
+
+@media (max-width: 992px) {
+    .movile-adapt{
+        justify-content: center;
+        width: 30vw;
+    }
+    .button-size{
+        min-width: 100%;
+        height: 100% !important;
+    }
+  }

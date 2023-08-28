@@ -1,0 +1,14 @@
+@media (max-width: 576px) {
+
+.body-card-top{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.body-card-top h3{
+    text-align: center;
+}
+.body-card-top button{
+    font-size: 12px;
+}
+}

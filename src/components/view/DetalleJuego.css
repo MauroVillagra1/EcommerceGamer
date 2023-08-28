@@ -1,0 +1,59 @@
+.body-detalles {
+  padding: 0 25% !important;
+}
+.content-coment {
+  margin: 0 2%;
+}
+.img-usuario {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  padding-bottom: 10%;
+}
+.coment-user {
+  display: flex;
+  margin-left: 2%;
+  width: 100%;
+}
+.coment-user form {
+  width: 100%;
+}
+
+.coment-user form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.coment-user form button {
+  width: 20%;
+  min-width: 100px;
+}
+
+.coment {
+  width: 100%;
+  background-color: white;
+  color: black;
+}
+.coment span {
+  width: 100%;
+}
+
+.description-content {
+  overflow-y: scroll;
+  max-height: 50vh;
+}
+
+.imagen-content {
+  height: 50vh;
+}
+
+@media (max-width: 576px) {
+  .body-detalles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,28 @@
+.img-download{
+    max-width: 60%;
+}
+
+.social-logo{
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+.social-logo li{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+}
+
+.social-logo li a{
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+}

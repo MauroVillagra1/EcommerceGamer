@@ -1,0 +1,42 @@
+.img-usuario {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  padding-bottom: 10%;
+}
+
+.content-coment {
+  margin: 0 2%;
+}
+
+.img-space {
+  margin-right: 2%;
+}
+.content-individual-coment {
+  margin-bottom: 2%;
+}
+
+.coment {
+  margin-bottom: 5%;
+}
+
+@media (max-width: 576px) {
+    .img-usuario {
+        width: 30px;
+        height: 30px;
+        
+      }
+      .coment {
+        margin-bottom: 7.5%;
+      }
+      .img-space p
+      {
+        font-size: 10px;
+      }
+}
+@media (max-width: 300px) {
+    .coment {
+        margin-bottom: 20%;
+      }
+}

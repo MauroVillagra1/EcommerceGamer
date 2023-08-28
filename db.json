@@ -1,0 +1,884 @@
+{
+  "programador": [
+    {
+      "nombreProgramador": "Ailan Alvaro",
+      "edad": 30,
+      "imagen": "https://res.cloudinary.com/dgzimgpia/image/upload/v1693144541/alvaro_jvaofl.jpg",
+      "id": 1
+    },
+    {
+      "nombreProgramador": "Altamiranda Luis",
+      "edad": 30,
+      "imagen": "https://res.cloudinary.com/dgzimgpia/image/upload/v1693144580/luisaltamiranda_iqumho.jpg",
+      "id": 2
+    },
+    {
+      "nombreProgramador": "Kameyha Facundo",
+      "edad": 25,
+      "imagen": "https://res.cloudinary.com/dol1ba0ld/image/upload/v1693022931/bd5a3847-58fc-4d72-8a3c-de90e2e2a9a5_e3shui.jpg",
+      "id": 3
+    },
+    {
+      "nombreProgramador": "Figueroa Lucas",
+      "edad": 31,
+      "imagen": "https://res.cloudinary.com/dol1ba0ld/image/upload/v1693022922/dbcfc40c-411c-40d3-9d73-06e23b0b7b78_yevqba.jpg",
+      "id": 4
+    },
+    {
+      "nombreProgramador": "Villagra Mauro",
+      "edad": 21,
+      "imagen": "https://res.cloudinary.com/dol1ba0ld/image/upload/v1693023204/WhatsApp_Image_2023-08-03_at_9.03.50_PM_uuqlcu.jpg",
+      "id": 5
+    }
+  ],
+  "usuarios": [
+    {
+      "nombreUsuario": "Admin",
+      "email": "admin@rolling.com",
+      "password": "123456aA",
+      "rol": true,
+      "id": 1
+    },
+    {
+      "nombreUsuario": "Jose",
+      "email": "Jose@rolling.com",
+      "password": "123456bB",
+      "rol": false,
+      "id": 2
+    },
+    {
+      "nombreUsuario": "Maria",
+      "email": "Maria@rolling.com",
+      "password": "123456cC",
+      "rol": false,
+      "id": 3
+    },
+    {
+      "nombreUsuario": "Mauro123",
+      "email": "Jose1@rolling.com",
+      "password": "123456",
+      "rol": false,
+      "id": 4
+    }
+  ],
+  "juegos": [
+    {
+      "nombreJuego": "God of War",
+      "precio": "500",
+      "fechaDeLanzamiento": "22-03-2005",
+      "desarrollador": "SIE Santa Monica Studio",
+      "descripcion": "God of War transcurre en una versión alternativa de la Antigua Grecia, donde existen seres mitológicos como los dioses o los titanes. Con la excepción de flashbacks, los hechos transcurren entre los juegos Chains of Olympus (2008) y Ghost of Sparta (2010). Hay seis localizaciones a explorar, siendo reales el Mar Egeo o la ciudad de Atenas y ficticias el Desierto de las Almas Perdidas, el Templo de Pandora, el Inframundo y una pequeña escena en el Monte Olimpo.",
+      "categorias": [
+        {
+          "categoria": "SandBox",
+          "id": 1
+        }
+      ],
+      "imagen": "https://juegosdigitalesargentina.com/files/images/thumbs/productos_300x400_1570562696-god-of-war-ps4.png",
+      "memoriaRam": "4",
+      "espacioDiscoDuro": "18",
+      "procesadores": [
+        {
+          "procesador": "Apple M1",
+          "id": 3
+        }
+      ],
+      "sistemasOperativos": [
+        {
+          "sistemaOperativo": "MAC OS",
+          "id": 2
+        }
+      ],
+      "tarjetasGraficas": [
+        {
+          "tarjetaGrafica": "NVIDIA Quadro P2000",
+          "id": 5
+        }
+      ],
+      "id": 1
+    },
+    {
+      "nombreJuego": "Minecraft",
+      "precio": "1000",
+      "fechaDeLanzamiento": "17-05-2009",
+      "desarrollador": "Mojanj Studios",
+      "descripcion": "Explora un mundo inmenso y completamente único en Minecraft, el juego de construcción y aventuras que ha capturado los corazones de jugadores de todas las edades. Creado por Mojang Studios, Minecraft te ofrece una experiencia de juego infinitamente creativa y emocionante.",
+      "categorias": [
+        {
+          "categoria": "SandBox",
+          "id": 1
+        }
+      ],
+      "imagen": "https://juegosdigitalesargentina.com/files/images/productos/1649441100-minecraft-ps4-0.jpg",
+      "memoriaRam": "8",
+      "espacioDiscoDuro": "32",
+      "procesadores": [
+        {
+          "procesador": "AMD Ryzen 7 5800X",
+          "id": 2
+        }
+      ],
+      "sistemasOperativos": [
+        {
+          "sistemaOperativo": "WINDOWS",
+          "id": 1
+        }
+      ],
+      "tarjetasGraficas": [
+        {
+          "tarjetaGrafica": "AMD Radeon RX 6800 XT",
+          "id": 2
+        }
+      ],
+      "id": 2
+    },
+    {
+      "id": 3,
+      "nombreJuego": "Grand Theft Auto",
+      "precio": "500",
+      "fechaDeLanzamiento": "10-10-1997",
+      "imagen": "https://juegosdigitalesargentina.com/files/images/productos/1474351766-gta-5-ps3-chile.jpg",
+      "descripcion": "La serie Grand Theft Auto, también conocida como GTA, es famosa por su enfoque en mundos abiertos y su énfasis en la libertad del jugador. En estos juegos, los jugadores asumen roles de personajes que a menudo están involucrados en actividades criminales en ciudades ficticias, en las que pueden explorar, realizar misiones, interactuar con personajes y vehículos, y en general experimentar una gran variedad de actividades.",
+      "desarrollador": "Rockstar Games",
+      "resenias": "",
+      "memoriaRam": "6",
+      "espacioDiscoDuro": "24",
+      "categorias": [
+        {
+          "categoria": "Simulacion",
+          "id": 2
+        }
+      ],
+      "procesadores": [
+        {
+          "procesador": "Apple M1",
+          "id": 3
+        }
+      ],
+      "sistemasOperativos": [
+        {
+          "sistemaOperativo": "ANDROID",
+          "id": 4
+        }
+      ],
+      "tarjetasGraficas": [
+        {
+          "tarjetaGrafica": "NVIDIA GeForce GTX 1660 Ti",
+          "id": 3
+        }
+      ]
+    },
+    {
+      "nombreJuego": "Mario Bros",
+      "precio": "500",
+      "fechaDeLanzamiento": "01-01-2002",
+      "desarrollador": "Nintendo",
+      "descripcion": "\"Super Mario Bros.\" es un juego de plataformas en el que los jugadores controlan a Mario, un fontanero aventurero, en su búsqueda por rescatar a la Princesa Peach del malvado Rey Bowser. El juego se desarrolla en el Reino Champiñón, un mundo ficticio lleno de niveles y mundos variados que Mario debe atravesar para llegar al castillo final donde se encuentra la princesa.",
+      "categorias": [
+        {
+          "categoria": "Construccion",
+          "id": 4
+        }
+      ],
+      "imagen": "https://juegosdigitalesargentina.com/files/images/productos/1637887447-new-super-mario-bros-u-deluxe-nintendo-switch.jpg",
+      "memoriaRam": "4",
+      "espacioDiscoDuro": "128",
+      "procesadores": [
+        {
+          "procesador": "Apple M1",
+          "id": 3
+        }
+      ],
+      "sistemasOperativos": [
+        {
+          "sistemaOperativo": "WINDOWS",
+          "id": 1
+        }
+      ],
+      "tarjetasGraficas": [
+        {
+          "tarjetaGrafica": "NVIDIA Quadro P2000",
+          "id": 5
+        }
+      ],
+      "id": 4
+    },
+    {
+      "nombreJuego": "Pro Evolution Soccer Pes 2019",
+      "precio": "350.25",
+      "fechaDeLanzamiento": "04-12-2003",
+      "desarrollador": "Konami",
+      "descripcion": "\"Pro Evolution Soccer 2019\" (PES 2019) es un videojuego de simulación de fútbol desarrollado por Konami como parte de la serie \"Pro Evolution Soccer\" (PES), también conocida como \"Winning Eleven\" en algunas regiones. La serie PES es una franquicia popular de videojuegos de fútbol que compite directamente con la serie \"FIFA\" de Electronic Arts.",
+      "categorias": [
+        {
+          "categoria": "Simulacion",
+          "id": 2
+        }
+      ],
+      "imagen": "https://juegosdigitalesargentina.com/files/images/thumbs/productos_300x400_1689627437-pro-evolution-soccer-pes-2019-ps5-0.jpg",
+      "memoriaRam": "12",
+      "espacioDiscoDuro": "1024",
+      "procesadores": [
+        {
+          "procesador": "Apple M1",
+          "id": 3
+        }
+      ],
+      "sistemasOperativos": [
+        {
+          "sistemaOperativo": "LINUX",
+          "id": 3
+        }
+      ],
+      "tarjetasGraficas": [
+        {
+          "tarjetaGrafica": "NVIDIA Quadro P2000",
+          "id": 5
+        }
+      ],
+      "id": 6
+    },
+    {
+      "nombreJuego": "UNO PC",
+      "precio": "6040",
+      "fechaDeLanzamiento": "01-05-2010",
+      "desarrollador": "Ubisoft Entertainment",
+      "descripcion": "¡UNO vuelve con características nuevas! Combina cartas por valor o color y juega cartas especiales para animar la partida. Compite contra otros para ver quién acaba antes sus cartas en el modo clásico o personaliza la partida con reglas de la casa.",
+      "categorias": [
+        {
+          "categoria": "Juegos de Mesa",
+          "id": 15
+        }
+      ],
+      "imagen": "https://juegosdigitalesargentina.com/files/images/productos/1650499106-uno-pc-0.jpg",
+      "memoriaRam": "4",
+      "espacioDiscoDuro": "128",
+      "procesadores": [
+        {
+          "procesador": "AMD Ryzen 7 5800X",
+          "id": 2
+        }
+      ],
+      "sistemasOperativos": [
+        {
+          "sistemaOperativo": "WINDOWS",
+          "id": 1
+        }
+      ],
+      "tarjetasGraficas": [
+        {
+          "tarjetaGrafica": "NVIDIA GeForce RTX 3080",
+          "id": 1
+        }
+      ],
+      "id": 7
+    },
+    {
+      "nombreJuego": "THE ELDER SCROLLS V SKYRIM ",
+      "precio": "14860",
+      "fechaDeLanzamiento": "27-08-2016",
+      "desarrollador": "Bethesda Game Studios",
+      "descripcion": "Skyrim Special Edition da vida a la fantasía épica con sorprendente detalle. La Edición Especial incluye el juego aclamado por la crítica y complementos con características completamente nuevas como arte y efectos remasterizados, rayos divinos volumétricos, profundidad de campo dinámica, reflejos en el espacio de la pantalla y más. ",
+      "categorias": [
+        {
+          "categoria": "Aventura",
+          "id": 5
+        }
+      ],
+      "imagen": "https://juegosdigitalesargentina.com/files/images/productos/1650499149-the-elder-scrolls-v-skyrim-special-edition-pc-0.jpg",
+      "memoriaRam": "8",
+      "espacioDiscoDuro": "128",
+      "procesadores": [
+        {
+          "procesador": "IBM POWER9",
+          "id": 5
+        }
+      ],
+      "sistemasOperativos": [
+        {
+          "sistemaOperativo": "WINDOWS",
+          "id": 1
+        }
+      ],
+      "tarjetasGraficas": [
+        {
+          "tarjetaGrafica": "AMD Radeon RX 6800 XT",
+          "id": 2
+        }
+      ],
+      "id": 8
+    },
+    {
+      "nombreJuego": "DEAD BY DAYLIGHT",
+      "precio": "6460",
+      "fechaDeLanzamiento": "14-06-2016",
+      "desarrollador": "Behaviour Interactive Inc",
+      "descripcion": "Sobrevivir juntos... o no: los supervivientes pueden cooperar con los demás o ser egoístas. Tus posibilidades de sobrevivir variarán dependiendo de si trabajas en equipo o si lo haces solo. ¿Podrás burlar al Asesino y escapar de su campo de exterminio?",
+      "categorias": [
+        {
+          "categoria": "Horror",
+          "id": 12
+        }
+      ],
+      "imagen": "https://juegosdigitalesargentina.com/files/images/productos/1650499195-dead-by-daylight-pc-0.jpg",
+      "memoriaRam": "8",
+      "espacioDiscoDuro": "128",
+      "procesadores": [
+        {
+          "procesador": "Intel Core i7-11700K",
+          "id": 1
+        }
+      ],
+      "sistemasOperativos": [
+        {
+          "sistemaOperativo": "WINDOWS",
+          "id": 1
+        }
+      ],
+      "tarjetasGraficas": [
+        {
+          "tarjetaGrafica": "NVIDIA GeForce RTX 3080",
+          "id": 1
+        }
+      ],
+      "id": 9
+    },
+    {
+      "nombreJuego": "Doom",
+      "precio": "6460",
+      "fechaDeLanzamiento": "13-05-2016",
+      "desarrollador": "id Software",
+      "descripcion": "Una campaña implacable\nNo podrás ponerte a cubierto ni detenerte para regenerar la salud mientras luchas contra las furiosas hordas de demonios del infierno. Combina tu arsenal de armas futuristas e icónicas, mejoras, movimiento y un sistema cuerpo a cuerpo avanzado para derribar, cortar, pisotear, aplastar y destruir demonios de maneras creativas y violentas.",
+      "categorias": [
+        {
+          "categoria": "Acción",
+          "id": 6
+        }
+      ],
+      "imagen": "https://juegosdigitalesargentina.com/files/images/productos/1650499269-doom-pc-0.jpg",
+      "memoriaRam": "8",
+      "espacioDiscoDuro": "128",
+      "procesadores": [
+        {
+          "procesador": "Intel Core i7-11700K",
+          "id": 1
+        }
+      ],
+      "sistemasOperativos": [
+        {
+          "sistemaOperativo": "WINDOWS",
+          "id": 1
+        }
+      ],
+      "tarjetasGraficas": [
+        {
+          "tarjetaGrafica": "AMD Radeon RX 6800 XT",
+          "id": 2
+        }
+      ],
+      "id": 10
+    },
+    {
+      "nombreJuego": "HELLO NEIGHBOR",
+      "precio": "5330",
+      "fechaDeLanzamiento": "08-12-2017",
+      "desarrollador": "Dynamic Pixels",
+      "descripcion": "Hello Neighbor es un juego de terror sigiloso en el que debes colarte en la casa de tu vecino para descubrir qué horribles secretos esconde en el sótano. Juegas contra una IA avanzada que aprende de cada uno de tus movimientos. ¿Realmente disfrutas trepando por la ventana del patio trasero? Espere una trampa para osos allí. ¿Escabullirse por la puerta principal? Pronto habrá cámaras allí. ¿Intentando escapar? El Vecino encontrará un atajo y te atrapará.",
+      "categorias": [
+        {
+          "categoria": "Estrategia",
+          "id": 7
+        }
+      ],
+      "imagen": "https://juegosdigitalesargentina.com/files/images/productos/1637364230-hello-neighbor-pc.jpg",
+      "memoriaRam": "6",
+      "espacioDiscoDuro": "128",
+      "procesadores": [
+        {
+          "procesador": "Intel Core i7-11700K",
+          "id": 1
+        }
+      ],
+      "sistemasOperativos": [
+        {
+          "sistemaOperativo": "IOS",
+          "id": 5
+        }
+      ],
+      "tarjetasGraficas": [
+        {
+          "tarjetaGrafica": "AMD Radeon RX 6800 XT",
+          "id": 2
+        }
+      ],
+      "id": 11
+    },
+    {
+      "nombreJuego": "GANG BEASTS",
+      "precio": "13730",
+      "fechaDeLanzamiento": "12-12-2017",
+      "desarrollador": "Boneloaf",
+      "descripcion": "Gang Beasts es un tonto juego de fiesta multijugador con personajes hoscos y gelatinosos, secuencias de peleas brutales y entornos absurdos y peligrosos, ambientado en las calles de Beef ",
+      "categorias": [
+        {
+          "categoria": "Lucha",
+          "id": 11
+        }
+      ],
+      "imagen": "https://juegosdigitalesargentina.com/files/images/productos/1637364330-gang-beasts-pc.jpg",
+      "memoriaRam": "4",
+      "espacioDiscoDuro": "128",
+      "procesadores": [
+        {
+          "procesador": "AMD Ryzen 7 5800X",
+          "id": 2
+        }
+      ],
+      "sistemasOperativos": [
+        {
+          "sistemaOperativo": "LINUX",
+          "id": 3
+        }
+      ],
+      "tarjetasGraficas": [
+        {
+          "tarjetaGrafica": "AMD Radeon RX 570",
+          "id": 4
+        }
+      ],
+      "id": 12
+    },
+    {
+      "nombreJuego": "DARK SOULS 3",
+      "precio": "9820",
+      "fechaDeLanzamiento": "11-04-2016",
+      "desarrollador": "FromSoftware Inc",
+      "descripcion": "A medida que los incendios se apagan y el mundo cae en ruinas, viaja a un universo lleno de enemigos y entornos más colosales. Los jugadores se sumergirán en un mundo de atmósfera épica y oscuridad a través de un juego más rápido y una intensidad de combate amplificada. Tanto los fanáticos como los recién llegados se perderán en la jugabilidad gratificante y los gráficos inmersivos característicos del juego.\nAhora sólo quedan brasas… ¡Prepárate una vez más y abraza la oscuridad!",
+      "categorias": [
+        {
+          "categoria": "Acción",
+          "id": 6
+        }
+      ],
+      "imagen": "https://juegosdigitalesargentina.com/files/images/productos/1637364539-dark-souls-3-pc.jpg",
+      "memoriaRam": "4",
+      "espacioDiscoDuro": "128",
+      "procesadores": [
+        {
+          "procesador": "Intel Core i7-11700K",
+          "id": 1
+        }
+      ],
+      "sistemasOperativos": [
+        {
+          "sistemaOperativo": "LINUX",
+          "id": 3
+        }
+      ],
+      "tarjetasGraficas": [
+        {
+          "tarjetaGrafica": "NVIDIA Quadro P2000",
+          "id": 5
+        }
+      ],
+      "id": 13
+    },
+    {
+      "nombreJuego": "FALL GUYS",
+      "precio": "10030",
+      "fechaDeLanzamiento": "11-08-2023",
+      "desarrollador": "First Coffee",
+      "descripcion": "Fallen Guns es un juego de disparos de arriba hacia abajo centrado en la estrategia de combate. El paso del tiempo será lento cuando Alex (el protagonista) esté quieto y volverá a la normalidad cuando vuelva a moverse. Esta dinámica obligará al jugador a buscar tiros perfectos y tiempos correctos al eliminar enemigos. Esto hace que eliminar un gran enjambre de enemigos sea muy satisfactorio y gratificante.",
+      "categorias": [
+        {
+          "categoria": "Acción",
+          "id": 6
+        }
+      ],
+      "imagen": "https://juegosdigitalesargentina.com/files/images/productos/1637364654-fall-guys-pc.jpg",
+      "memoriaRam": "4",
+      "espacioDiscoDuro": "128",
+      "procesadores": [
+        {
+          "procesador": "Qualcomm Snapdragon 888",
+          "id": 4
+        }
+      ],
+      "sistemasOperativos": [
+        {
+          "sistemaOperativo": "ANDROID",
+          "id": 4
+        }
+      ],
+      "tarjetasGraficas": [
+        {
+          "tarjetaGrafica": "AMD Radeon RX 6800 XT",
+          "id": 2
+        }
+      ],
+      "id": 14
+    },
+    {
+      "nombreJuego": "EURO TRUCK SIMULATOR 2",
+      "precio": "6880",
+      "fechaDeLanzamiento": "18-10-2012",
+      "desarrollador": " SCS Software",
+      "descripcion": "¡Viaja por Europa como el rey de la carretera, un camionero que entrega cargas importantes a distancias impresionantes! Con docenas de ciudades para explorar desde el Reino Unido, Bélgica, Alemania, Italia, Países Bajos, Polonia y muchas más, tu resistencia, habilidad y velocidad serán llevadas al límite. Si tienes lo que se necesita para ser parte de una fuerza de transporte de élite, ¡ponte al volante y pruébalo!",
+      "categorias": [
+        {
+          "categoria": "Simulacion",
+          "id": 2
+        }
+      ],
+      "imagen": "https://juegosdigitalesargentina.com/files/images/productos/1650497956-euro-truck-simulator-2-pc-0.jpg",
+      "memoriaRam": "4",
+      "espacioDiscoDuro": "128",
+      "procesadores": [
+        {
+          "procesador": "Apple M1",
+          "id": 3
+        }
+      ],
+      "sistemasOperativos": [
+        {
+          "sistemaOperativo": "MAC OS",
+          "id": 2
+        }
+      ],
+      "tarjetasGraficas": [
+        {
+          "tarjetaGrafica": "NVIDIA Quadro P2000",
+          "id": 5
+        }
+      ],
+      "id": 15
+    },
+    {
+      "nombreJuego": "TERRARIA",
+      "precio": "6750",
+      "fechaDeLanzamiento": "16-05-2011",
+      "desarrollador": "ReLogic",
+      "descripcion": "Excava, lucha, explora, construye: el mundo mismo está a tu alcance mientras luchas por la supervivencia, la fortuna y la gloria. ¿Profundizarás en extensiones cavernosas en busca de tesoros y materias primas con las que crear equipos, maquinaria y estética en constante evolución? ¿Quizás elegirás buscar enemigos cada vez mayores para poner a prueba tu temple en combate?",
+      "categorias": [
+        {
+          "categoria": "Aventura",
+          "id": 5
+        }
+      ],
+      "imagen": "https://juegosdigitalesargentina.com/files/images/productos/1637364875-terraria-pc.jpg",
+      "memoriaRam": "4",
+      "espacioDiscoDuro": "128",
+      "procesadores": [
+        {
+          "procesador": "IBM POWER9",
+          "id": 5
+        }
+      ],
+      "sistemasOperativos": [
+        {
+          "sistemaOperativo": "LINUX",
+          "id": 3
+        }
+      ],
+      "tarjetasGraficas": [
+        {
+          "tarjetaGrafica": "AMD Radeon RX 6800 XT",
+          "id": 2
+        }
+      ],
+      "id": 16
+    },
+    {
+      "nombreJuego": "THE WITCHER 3 WILD HUNT GOTY",
+      "precio": "9650",
+      "fechaDeLanzamiento": "18-05-2015",
+      "desarrollador": "CD PROJEKT RED",
+      "descripcion": "Eres Geralt de Rivia, cazador de monstruos. En un continente devastado por la guerra e infestado de criaturas, tu misión es encontrar a Ciri, la niña de la profecía, un arma viviente que puede alterar el mundo tal y como lo conocemos.",
+      "categorias": [
+        {
+          "categoria": "Estrategia",
+          "id": 7
+        }
+      ],
+      "imagen": "https://juegosdigitalesargentina.com/files/images/productos/1637365312-the-witcher-3-wild-hunt-goty-pc.jpg",
+      "memoriaRam": "6",
+      "espacioDiscoDuro": "128",
+      "procesadores": [
+        {
+          "procesador": "IBM POWER9",
+          "id": 5
+        }
+      ],
+      "sistemasOperativos": [
+        {
+          "sistemaOperativo": "MAC OS",
+          "id": 2
+        }
+      ],
+      "tarjetasGraficas": [
+        {
+          "tarjetaGrafica": "NVIDIA Quadro P2000",
+          "id": 5
+        }
+      ],
+      "id": 17
+    },
+    {
+      "nombreJuego": "BATTLEFIELD 2042",
+      "precio": "26750",
+      "fechaDeLanzamiento": "18-11-2021",
+      "desarrollador": "DICE",
+      "descripcion": "Battlefield™ 2042 es un juego de disparos en primera persona que marca el regreso de la icónica guerra total de la franquicia. Utiliza un arsenal innovador en batallas multijugador inmersivas en mapas con campos de batalla abiertos y mapas a corta distancia. Escoge tu clase, reúne a tu escuadrón y lucha por el mundo de 2042 y del pasado de Battlefield.",
+      "categorias": [
+        {
+          "categoria": "Arcade",
+          "id": 14
+        }
+      ],
+      "imagen": "https://juegosdigitalesargentina.com/files/images/productos/1629734072-battlefield-2042.jpg",
+      "memoriaRam": "16",
+      "espacioDiscoDuro": "256",
+      "procesadores": [
+        {
+          "procesador": "IBM POWER9",
+          "id": 5
+        }
+      ],
+      "sistemasOperativos": [
+        {
+          "sistemaOperativo": "ANDROID",
+          "id": 4
+        }
+      ],
+      "tarjetasGraficas": [
+        {
+          "tarjetaGrafica": "NVIDIA GeForce RTX 3080",
+          "id": 1
+        }
+      ],
+      "id": 18
+    }
+  ],
+  "categorias": [
+    {
+      "categoria": "SandBox",
+      "id": 1
+    },
+    {
+      "categoria": "Simulacion",
+      "id": 2
+    },
+    {
+      "categoria": "Fabricacion",
+      "id": 3
+    },
+    {
+      "categoria": "Construccion",
+      "id": 4
+    },
+    {
+      "categoria": "Aventura",
+      "id": 5
+    },
+    {
+      "categoria": "Acción",
+      "id": 6
+    },
+    {
+      "categoria": "Estrategia",
+      "id": 7
+    },
+    {
+      "categoria": "Deportes",
+      "id": 8
+    },
+    {
+      "categoria": "Carreras",
+      "id": 9
+    },
+    {
+      "categoria": "Puzles",
+      "id": 10
+    },
+    {
+      "categoria": "Lucha",
+      "id": 11
+    },
+    {
+      "categoria": "Horror",
+      "id": 12
+    },
+    {
+      "categoria": "Mundo Abierto",
+      "id": 13
+    },
+    {
+      "categoria": "Arcade",
+      "id": 14
+    },
+    {
+      "categoria": "Supervivencia",
+      "id": 14
+    },
+    {
+      "categoria": "Juegos de Mesa",
+      "id": 15
+    }
+  ],
+  "procesadores": [
+    {
+      "procesador": "Intel Core i7-11700K",
+      "id": 1
+    },
+    {
+      "procesador": "AMD Ryzen 7 5800X",
+      "id": 2
+    },
+    {
+      "procesador": "Apple M1",
+      "id": 3
+    },
+    {
+      "procesador": "Qualcomm Snapdragon 888",
+      "id": 4
+    },
+    {
+      "procesador": "IBM POWER9",
+      "id": 5
+    }
+  ],
+  "sistemasOperativos": [
+    {
+      "sistemaOperativo": "WINDOWS",
+      "id": 1
+    },
+    {
+      "sistemaOperativo": "MAC OS",
+      "id": 2
+    },
+    {
+      "sistemaOperativo": "LINUX",
+      "id": 3
+    },
+    {
+      "sistemaOperativo": "ANDROID",
+      "id": 4
+    },
+    {
+      "sistemaOperativo": "IOS",
+      "id": 5
+    }
+  ],
+  "tarjetasGraficas": [
+    {
+      "tarjetaGrafica": "NVIDIA GeForce RTX 3080",
+      "id": 1
+    },
+    {
+      "tarjetaGrafica": "AMD Radeon RX 6800 XT",
+      "id": 2
+    },
+    {
+      "tarjetaGrafica": "NVIDIA GeForce GTX 1660 Ti",
+      "id": 3
+    },
+    {
+      "tarjetaGrafica": "AMD Radeon RX 570",
+      "id": 4
+    },
+    {
+      "tarjetaGrafica": "NVIDIA Quadro P2000",
+      "id": 5
+    }
+  ],
+  "juegosStorage": [
+    {
+      "idJuego": 3,
+      "idUsuario": 1,
+      "id": 5
+    },
+    {
+      "idJuego": 2,
+      "idUsuario": 1,
+      "id": 6
+    },
+    {
+      "idJuego": 6,
+      "idUsuario": 1,
+      "id": 8
+    },
+    {
+      "idJuego": 1,
+      "idUsuario": 1,
+      "id": 9
+    }
+  ],
+  "resenias": [
+    {
+      "id": 1,
+      "resenia": "Muy buen juego",
+      "idUsuario": 1,
+      "idJuego": 1,
+      "nombreUsuario": "Admin"
+    },
+    {
+      "id": 2,
+      "resenia": "Muy buen juego, muy bueno",
+      "idUsuario": 1,
+      "idJuego": 1,
+      "nombreUsuario": "Admin"
+    },
+    {
+      "id": 3,
+      "resenia": "Muy mal juego",
+      "idUsuario": 3,
+      "idJuego": 2,
+      "nombreUsuario": "Jose"
+    },
+    {
+      "resenia": "Tomi sigue siendo un boludo",
+      "idJuego": 6,
+      "idUsuario": 2,
+      "nombreUsuario": "Jose",
+      "id": 5
+    }
+  ],
+  "puntuacion": [
+    {
+      "idJuego": 1,
+      "idUsuario": 1,
+      "puntuacionJuego": 5,
+      "id": 2
+    },
+    {
+      "idJuego": 1,
+      "idUsuario": 1,
+      "puntuacionJuego": 1,
+      "id": 3
+    },
+    {
+      "idJuego": 4,
+      "idUsuario": 1,
+      "puntuacionJuego": 5,
+      "id": 4
+    },
+    {
+      "idJuego": 2,
+      "idUsuario": 1,
+      "puntuacionJuego": 5,
+      "id": 5
+    },
+    {
+      "idJuego": 7,
+      "idUsuario": 1,
+      "puntuacionJuego": 1,
+      "id": 6
+    },
+    {
+      "idJuego": 6,
+      "idUsuario": 1,
+      "puntuacionJuego": 5,
+      "id": 7
+    }
+  ]
+}

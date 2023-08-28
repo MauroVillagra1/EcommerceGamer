@@ -1,0 +1,39 @@
+.Card-body {
+    width: 40%;
+    height: 40%;
+  }
+  
+  .card-body-size-2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  @media (max-width: 768px) {
+    .Card-body {
+      width: 30%;
+      height: 30%;
+    }
+  
+    
+  }
+
+  @media (max-width: 576px) {
+    .card-body-size-2 {
+        bottom: initial;
+        left: initial;
+        width: initial;
+        background-color: initial;
+        color: initial;
+        transition: initial;
+      }
+      .conteiner-text{
+        display: none;
+      }
+  }
+
+  

@@ -1,0 +1,78 @@
+.card-juego .img-juego img {
+  width: 100%;
+  height: 70vh;
+  justify-content: center;
+}
+.card-juego .img-juego {
+  padding: 0 !important;
+}
+
+.card-juego {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  margin: 10vh 0;
+  -webkit-box-shadow: -1px 19px 53px -17px rgba(255, 255, 255, 1);
+  -moz-box-shadow: -1px 19px 53px -17px rgba(255, 255, 255, 1);
+  box-shadow: -1px 19px 53px -17px rgba(255, 255, 255, 1);
+}
+
+.body-detalle {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.info-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #272727;
+  color: white;
+  height: 70vh;
+  padding: 2.5% 2.5%;
+}
+.Descripcion {
+  max-height: 40%;
+  overflow-y: scroll;
+}
+.custom-button {
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo-precio {
+  justify-content: space-between;
+}
+
+.img-carrito {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.button-content {
+  display: flex;
+  align-items: center;
+}
+
+.content-button {
+  height: 9%;
+}
+
+@media screen and (max-width: 768px) {
+  .card-juego {
+    width: 95%;
+    margin: 5vh auto;
+  }
+
+  .info-card {
+    padding: 15px;
+  }
+}

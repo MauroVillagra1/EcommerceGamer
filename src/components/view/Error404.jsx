@@ -28,7 +28,10 @@ const Error404 = () => {
           className="image"
         />
         <div className="text-overlay">
-          <p className="retro-text">{visibleText}</p>
+          <p className="retro-text">
+            <img src="" alt="" />
+            {visibleText}
+          </p>
           <div>
             <button className="magic-button">
               <Link className="btn btn-primary" to={"/"}>

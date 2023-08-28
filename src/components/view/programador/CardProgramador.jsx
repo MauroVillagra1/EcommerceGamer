@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { listarProgramador } from "../../helpers/queries";
 import "./CardProgramador.css";
-
 function CardProgramador() {
   const [programadores, setProgramadores] = useState([]);
   useEffect(() => {

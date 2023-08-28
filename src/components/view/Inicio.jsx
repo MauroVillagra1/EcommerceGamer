@@ -47,7 +47,8 @@ function Inicio({ usuarioActivo }) {
     );
     setJuegosFilter(filteredGames);
   };
-
+  
+  
   useEffect(() => {
     MostrarTop();
   }, [juegos, puntuaciones]);
@@ -82,6 +83,34 @@ function Inicio({ usuarioActivo }) {
       setJuegosFilter(juegosFiltrados);
     }
   }
+
+  // const MostrarTop = () => {
+  //   var datosCompilados = [];
+  //   juegos.map((juego) => {
+  //     var contador = 0;
+  //     var puntacionIndividual = 0;
+  //     puntuaciones.map((puntuacion) => {
+  //       if (puntuacion.idJuego === juego.id) {
+  //         puntacionIndividual += puntuacion.puntuacionJuego;
+  //         contador++;
+  //       }
+  //     });
+
+  //     if (puntacionIndividual > 0) {
+  //       const datos = {
+  //         idJuego: juego.id,
+  //         nombreJuego: juego.nombreJuego,
+  //         imagen: juego.imagen,
+  //         precio: juego.precio,
+  //         puntuacionJuego: (puntacionIndividual / contador).toFixed(2),
+  //       };
+  //       datosCompilados.push(datos);
+  //     }
+  //   });
+  //   datosCompilados.sort((a, b) => b.puntuacionJuego - a.puntuacionJuego);
+  //   console.log(datosCompilados);
+  //   setTopJuegos(datosCompilados);
+  // };
 
   const MostrarTop = () => {
     const datosCompilados = juegos
@@ -122,8 +151,10 @@ function Inicio({ usuarioActivo }) {
     <div className="body-search ">
       <CarrouselInicio></CarrouselInicio>
       <div className="bg-dark d-flex align-items-center mb-4">
+        
         <div className="text-filtrar">Filtrar</div>
         <div>
+          {" "}
           <Form>
             <FormGroup>
               <Form.Select
@@ -132,7 +163,7 @@ function Inicio({ usuarioActivo }) {
                 onChange={handleChange}
               >
                 <option value="0">Seleccione una opción</option>
-
+              
                 {categorias.map((categoria, index) => (
                   <option
                     key={`categoria-${categoria.id}-${index}`}
@@ -146,21 +177,23 @@ function Inicio({ usuarioActivo }) {
           </Form>
         </div>
         <Form>
-          <FormGroup>
-            <Form.Control
-              type="text"
-              placeholder="Buscar por nombre..."
-              value={searchTerm}
-              onChange={(e) => {
-                setSearchTerm(e.target.value);
-                searchGames(e.target.value);
-              }}
-            />
-          </FormGroup>
-        </Form>
-      </div>
+  {/* ...otros campos de formulario... */}
+  <FormGroup>
+    <Form.Control
+      type="text"
+      placeholder="Buscar por nombre..."
+      value={searchTerm}
+      onChange={(e) => {
+        setSearchTerm(e.target.value);
+        searchGames(e.target.value);
+      }}
+    />
+  </FormGroup>
+</Form>
 
-      <CardJuego juegos={juegosfilter} />
+      </div>
+      
+      <CardJuego juegos={juegosfilter} />{" "}
       <div className="justify-content-center d-flex top-conteiner">
         <div className="d-flex bg-top">
           <div className="w-50 content-img-top">

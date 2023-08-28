@@ -4,6 +4,9 @@ function AcercaDeNostros() {
   return (
     <>
       <section className="text-center py-5 mx-5 px-5">
+        <h1 style={{ fontWeight: "bold", color: "dark" }}>
+          Acerca De Nosotros
+        </h1>
         <div className="fs-4">
           <p>
             Somos un equipo apasionado comprometido a brindar soluciones
